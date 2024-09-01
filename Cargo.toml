@@ -5,7 +5,7 @@ authors = ["Guillaume Pinot <texitoi@texitoi.eu>"]
 edition = "2018"
 
 [dependencies]
-stm32f1xx-hal = { version = "0.5.2", features = ["rt", "stm32f103" ] }
-cortex-m = "0.6"
-cortex-m-rt = { version = "0.6.8", features = ["device"] }
-panic-semihosting = "0.5.2"
+stm32f1xx-hal = { version = "0.10.0", features = ["rt", "stm32f103"] }
+cortex-m = "0.7.7"
+cortex-m-rt = { version = "0.7.3", features = ["device"] }
+panic-semihosting = "0.6.0"
